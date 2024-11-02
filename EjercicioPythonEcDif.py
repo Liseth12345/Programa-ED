@@ -81,9 +81,9 @@ try:
     # Conjunto de variables de x: x_vals
     # Conjunto de variables de y: y_vals 
     # meshgrid es una herramienta poderosa en NumPy que facilita la creación de cuadrículas de coordenadas
-    x_vals = np.linspace(x0 - 10, x0 + 10, 400)
-    y_vals = np.linspace(0.1, y0 + 10, 400)  # Evita valores cero o negativos
-    X, Y = np.meshgrid(x_vals, y_vals)
+    x_valores = np.linspace(x0 - 10, x0 + 10, 400)
+    y_valores = np.linspace(0.1, y0 + 10, 400)  # Evita valores cero o negativos
+    X, Y = np.meshgrid(x_valores, y_valores)
     #x_vals: se usa para generar un rango de valores para x alrededor
     #de la condición inicial x0, en el que nos permite visualizar la solución
     #en un intervalo que se extiende 10 unidades a cada lado de x0
